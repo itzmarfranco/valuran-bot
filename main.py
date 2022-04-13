@@ -21,3 +21,6 @@ def masters(message):
   
 
 bot.polling()
+
+if __name__ == '__main__':
+    main()
