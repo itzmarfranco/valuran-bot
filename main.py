@@ -1,7 +1,9 @@
 import os
+from dotenv import load_dotenv
 import telebot
 
-API_KEY = os.environ['API_KEY']
+load_dotenv()
+API_KEY = os.getenv('API_KEY')
 
 bot = telebot.TeleBot(API_KEY)
 
